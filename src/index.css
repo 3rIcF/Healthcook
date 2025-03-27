@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom base styles */
+@layer base {
+  body {
+    @apply font-sans text-gray-900;
+  }
+  
+  button {
+    @apply transition-all duration-200 ease-in-out;
+  }
+}
+
+/* Custom components */
+@layer components {
+  .card {
+    @apply bg-white rounded-xl shadow-sm overflow-hidden;
+  }
+}
